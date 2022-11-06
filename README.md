@@ -10,6 +10,8 @@ New-Item -Path $env:LocalAppData\nvim -Value nvim -ItemType SymbolicLink -Force
 ```
 
 ```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 ln -s $HOME/dotfiles/nvim $HOME/.config/nvim
 ln -s $HOME/dotfiles/.tmux.conf $HOME/.tmux.conf
 ```
